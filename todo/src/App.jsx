@@ -1,4 +1,5 @@
 import React from 'react';
+import {TodoList} from './components/todolist';
 // import {combineReducers } from 'redux';
 
 
@@ -8,7 +9,9 @@ import React from 'react';
 //   });
 const App = () =>{
     return (
-        <div></div>
+        <div>
+        <TodoList />
+        </div>
     )
 }
 
