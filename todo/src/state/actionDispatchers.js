@@ -12,7 +12,7 @@ export const addTodo = (value) => {
     }
   };
 };
-export const deleteTodo = id => {
+export const deleteTodo = (id )=> {
   return {
     type: types.DELETE_TODO,
     payload: id
